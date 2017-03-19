@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: nik-coursera-iot
+  host: nik-coursera-iot
+  disk_quota: 1024M
+  services:
+  - nik-coursera-iot-cloudantNoSQLDB
+  - nik-coursera-iot-iotf-service
